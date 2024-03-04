@@ -3,7 +3,7 @@
 # continue nos permite saltar un iteración de un bucle
 
 $paises = array(
-	'Mexico', 'España', 'Colombia', 'Peru', 
+	'Mexico', 'España', 'Colombia', 'Peru',
 	'Argentina', 'Venezuela', 'Guatemala'
 );
 
@@ -11,9 +11,7 @@ $paises = array(
 // Realizar un ciclo for
 // Preguntar si nos encontramos con el valor "España" y en caso positivo escribir la instrucción "continue"
 
-for ($i = 0; $i < count($paises); $i+=1) {
+for ($i = 0; $i < count($paises); $i += 1) {
 	if ($paises[$i] === "España") continue;
-	echo $paises[$i],'<br>';
+	echo $paises[$i], '<br>';
 }
-
-

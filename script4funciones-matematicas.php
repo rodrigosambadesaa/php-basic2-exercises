@@ -1,11 +1,11 @@
 <?php
- # round() Redondeo de un número
+# round() Redondeo de un número
 
- # rand() Obtención de un número aleatorio
- 
- # ceil() Redondeo siempre de un número hacia arriba. Fundamental para realzar paginación
+# rand() Obtención de un número aleatorio
 
- 
+# ceil() Redondeo siempre de un número hacia arriba. Fundamental para realzar paginación
+
+
 
 //obtener un número aleatorio con rand() entre 1 y 100 y decir si es par o no
 

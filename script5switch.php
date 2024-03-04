@@ -1,11 +1,11 @@
-<?php 
+<?php
 
 # Sintax del Switch
 // switch (variable) {
 // 	case 'value':
 // 		# code...
 // 		break;
-	
+
 // 	default:
 // 		# code...
 // 		break;
@@ -23,14 +23,14 @@ $mes = 'Diciembre';
 $mensaje = "En este mes no se celebra nada";
 
 switch (strtolower($mes)) {
-  case 'diciembre':
-    $mensaje = "Feliz Navidad";
-    break;
-  case 'enero':
-    $mensaje = "Feliz Año Nuevo";
-    break;
-  default:
-    break;
+    case 'diciembre':
+        $mensaje = "Feliz Navidad";
+        break;
+    case 'enero':
+        $mensaje = "Feliz Año Nuevo";
+        break;
+    default:
+        break;
 }
 
-echo $mes, ": ",$mensaje;
+echo $mes, ": ", $mensaje;
