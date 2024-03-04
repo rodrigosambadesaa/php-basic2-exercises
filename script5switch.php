@@ -18,3 +18,15 @@ $mes = 'Diciembre';
 // Caso de "Diciembre" mostrará "Feliz navidad"
 // Caso de "Enero" mostrará "Feliz Año Nuevo"
 // En otro caso mostrá "En este mes no se celebra nada"
+
+switch ($mes) {
+    case 'Diciembre':
+        echo "Feliz Navidad";
+        break;
+    case 'Enero':
+        echo "Feliz Año Nuevo";
+        break;
+    default:
+        echo "En este mes no se celebra nada";
+        break;
+}

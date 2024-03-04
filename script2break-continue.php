@@ -11,5 +11,14 @@ $paises = array(
 // Realizar un ciclo for
 // Preguntar si nos encontramos con el valor "España" y en caso positivo escribir la instrucción "continue"
 
+for ($i = 0; $i < count($paises); $i++) {
+	if ($paises[$i] === 'España') {
+		continue;
+	}
+	echo $paises[$i] . '<br>';
+}
+
+?>
+
 
 
