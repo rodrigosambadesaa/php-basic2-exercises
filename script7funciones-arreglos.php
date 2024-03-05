@@ -48,10 +48,10 @@ $tortilla = array("tiempo" => "5 minutos", "ingredientes" => array("huevo", "pat
 			</td>
 			<td>
 				<?php
-					$ingredientes = $tortilla['ingredientes'];
-					foreach ($ingredientes as $ingrediente) {
-						echo $ingrediente, '<br>';
-					}
+				$ingredientes = $tortilla['ingredientes'];
+				foreach ($ingredientes as $ingrediente) {
+					echo $ingrediente, '<br>';
+				}
 				?>
 			</td>
 			<td>
@@ -61,10 +61,10 @@ $tortilla = array("tiempo" => "5 minutos", "ingredientes" => array("huevo", "pat
 		<tr>
 			<td colspan="3">
 				<?php
-					$ingredientes = $tortilla['ingredientes'];
-					foreach ($ingredientes as $ingrediente) {
-						echo $ingrediente, '<br>';
-					}
+				$ingredientes = $tortilla['ingredientes'];
+				foreach ($ingredientes as $ingrediente) {
+					echo $ingrediente, '<br>';
+				}
 				?>
 			</td>
 		</tr>
