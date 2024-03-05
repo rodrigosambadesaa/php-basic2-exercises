@@ -33,6 +33,7 @@ function alert(mixed $mensaje): void
 		echo $mensaje;
 }
 
+alert([1, 2, 3]);
 alert("Hola Mundo");
 
 
