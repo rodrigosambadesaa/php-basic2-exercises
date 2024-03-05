@@ -54,3 +54,5 @@ function getDiaSemana(int $dia): string
 	];
 	return $dias[$dia];
 }
+
+getDiaSemana(1); // Lunes
